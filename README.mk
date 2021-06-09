@@ -4,3 +4,4 @@ Changes made to run this "now" and on Mac minikube:
   to https://charts.helm.sh/stable
 - run "minikube tunnel" to be able to access Ingress
 - $ brew install kubeseal
+- Change helm repo for sealed-secrets
