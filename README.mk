@@ -3,3 +3,4 @@ Changes made to run this "now" and on Mac minikube:
   https://kubernetes-charts.storage.googleapis.com/
   to https://charts.helm.sh/stable
 - run "minikube tunnel" to be able to access Ingress
+- $ brew install kubeseal
