@@ -1,0 +1,2 @@
+export FLUX_FORWARD_NAMESPACE=fluxcd
+
