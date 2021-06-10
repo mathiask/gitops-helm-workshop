@@ -1,2 +1,2 @@
+export GHUSER=mathiask
 export FLUX_FORWARD_NAMESPACE=fluxcd
-
