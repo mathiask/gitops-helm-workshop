@@ -5,7 +5,6 @@ metadata:
   namespace: ingress-nginx
   annotations:
     fluxcd.io/ignore: "false"
-    enable: "false"
 spec:
   releaseName: nginx-ingress
   chart:
@@ -16,3 +15,5 @@ spec:
     controller:
       service:
         type: LoadBalancer
+      nodeSelector:
+        ingress-ready: "true"
